@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>College Friends Contact Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f7f8;
+      margin: 20px;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 90%;
+      max-width: 800px;
+      margin: auto;
+      background-color: #e8e4e4;
+    }
+    th, td {
+      padding: 12px 15px;
+      text-align: left;
+      border-bottom:1px solid black;
+      border-right: 1px solid black;
+    }
+    th {
+      background-color: #c56104;
+      color: #fff;
+    }
+    
+    @media (max-width: 600px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+      }
+      tr {
+        margin-bottom: 15px;
+      }
+      th, td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+      }
+      th::before, td::before {
+        position: absolute;
+        left: 15px;
+        top: 12px;
+        white-space: nowrap;
+        font-weight: bold;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h2>College Friends Contact Table</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>S.No</th>
+      <th>Name</th>
+      <th>Hometown</th>
+      <th>Contact No</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Rohan Kumar</td>
+      <td>Patna</td>
+      <td>9876543210</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Dipak Kumar</td>
+      <td>Gaya</td>
+      <td>9123456780</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Tamesh Kumar</td>
+      <td>Bhagalpur</td>
+      <td>8765432109</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Aman Verma</td>
+      <td>Muzaffarpur</td>
+      <td>9812345678</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Rahul Raj</td>
+      <td>Darbhanga</td>
+      <td>9900112233</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Ranjan Kumar</td>
+      <td>Ranchi</td>
+      <td>9876012345</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Vivek Mishra</td>
+      <td>Aurangabad</td>
+      <td>7890123456</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Rahul Ray</td>
+      <td>Nalanda</td>
+      <td>7001234567</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
